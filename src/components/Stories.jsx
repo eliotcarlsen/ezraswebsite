@@ -4,7 +4,9 @@ import Story from "./Story";
 function Stories() {
   return (
     <div>
-      <Story />
+      <Story
+        author="Ezra Carlsen!"
+        url="www.test.com" />
     </div>
   );
 }
