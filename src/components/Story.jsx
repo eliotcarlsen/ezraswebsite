@@ -2,13 +2,13 @@ import React from "react";
 
 function Story() {
     return (
-        <h3>Story</h3>
         <div>
+        <h3>Story</h3>
         <ul>
-        <li>link</li>
-        <li>link</li>
-        <li>link</li>
-        <li>link</li>
+          <li>link</li>
+          <li>link</li>
+          <li>link</li>
+          <li>link</li>
         </ul>
         </div>
     );

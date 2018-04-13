@@ -3,8 +3,9 @@ import Story from "./Story";
 
 function Stories() {
   return (
-    <h3>Stories</h3>
+    <div>
       <Story />
+    </div>
   );
 }
 
