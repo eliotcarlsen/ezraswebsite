@@ -3,7 +3,8 @@ import Navbar from './Navbar';
 
 function App(){
   var mainStyles = {
-    backgroundImage: 'assets/img/ElCaminoShasta.jpg'
+    backgroundColor: 'blue',
+    backgroundImage: "../../assets/ElCaminoShasta.jpg"
   };
   return (
     <div style={mainStyles}>
