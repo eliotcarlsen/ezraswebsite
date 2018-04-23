@@ -1,14 +1,16 @@
 import React from 'react';
 import Header from './Header';
-import StoryList from './StoryList';
 import Photos from './Photos';
 import Bio from './Bio';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
   return (
     <div>
       <Header />
-      <StoryList />
+        <div>
+          <Link to="/stories">Stories</Link>
+        </div>
       <Photos />
       <Bio />
     </div>
