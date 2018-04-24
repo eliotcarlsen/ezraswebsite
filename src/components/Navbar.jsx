@@ -8,9 +8,9 @@ function Navbar() {
   return (
     <div>
       <Header />
-        <div>
-          <Link to="/stories">Stories</Link>
-        </div>
+      <div>
+        <Link to="/stories">Stories</Link>
+      </div>
       <Photos />
       <Bio />
     </div>
