@@ -6,7 +6,7 @@ function Stories(props) {
     <div>
       <style jsx>{`
         div {
-          background-color: red;
+          background-color: '';
         }
       `}</style>
       <h3>Title: {props.title}</h3>
